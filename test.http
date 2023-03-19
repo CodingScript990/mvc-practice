@@ -1,0 +1,6 @@
+// GET 요청으로 calculate 라는 Path 를 Request 해줌
+GET http://localhost:8080/calculate?operand1=20&operator=/&operand2=10
+// + 를 넣어주는 것이 아니라! 인코딩된 값으로 넣어줌! -> %2b
+// / 를 넣어주는 것이 아니라! 인코딩된 값으로 넣어줌! -> %2f
+
+
